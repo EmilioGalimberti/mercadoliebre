@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width"> <!-- Viewports -->
+
+
+
+    <link href="css/style.css" rel="stylesheet"> <!-- CSS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  <!-- Fuentes -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"rel="stylesheet" /><!-- Logos -->
+    <title>mercado libre</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div id="logo">  <!-- Usar las imagenes entre div, MODELO DE CAJA -->
+                <img  src="/images/logo-mercado-liebre.svg">
+            </div>
+            <div id="barraBusqueda">
+                <form> <input type="text"> <i class="fas fa-search"></i></form>
+            </div>
+            <div id="coutas"> 
+            <i class="fab fa-cc-paypal"></i>Compra en coutas y sin tarjeta de credito</h4>
+            </div>
+        </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="hijo"> Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hijo"> Tiendas especailes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hijo"> Vender</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hijo"> Ayuda</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="/register" class="hijo"> Crea tu cuenta</a><i class="fas fa-user-plus"></i>
+                    </li>
+                    <li>
+                        <a href="/login"  class="hijo"> Ingreso</a><i class="fas fa-sign-in-alt"></i>
+                    </li>
+                    <li>
+                        <a href="#" class="hijo"> Mis compras</a><i class="fas fa-shopping-cart"></i>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div align="center" class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+        </header>
+    <main class="register" >
+        <form action="/" method="get">
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" name='name' id="name" required><br><br>
+            <label for="user">Usario</label>
+            <input type="text" name='user' id="user" required><br><br>
+            
+            <label for="name">Domicilio</label>
+            <input type="domicilio" name='name' id="name" required><br><br>
+            <label for="name">Fecha de Nacimiento</label>
+            <input type="date" name="fecha" required>
+            <h4>Perfil de Usuario</h4>
+            <label for="buy"> Comprador</label>
+            <input type="radio" name='profile' id="buy" value="Buy">
+            <label for="sell"> Vendedor</label>
+            <input type="radio" name='profile' id="sell" value="Sell">
+            <h4>Categoria de interes</h4>
+            <input type="checkbox" name='interes' id="electro" value="Electro">
+            <label> Electro</label><br><br>
+            <input type="checkbox" name='interes' id="moda" value="Moda">
+            <label> Moda</label><br><br>
+            <input type="checkbox" name='interes' id="hogar" value="Hogar">
+            <label> Hogar</label><br><br>
+            <input type="checkbox" name='interes' id="jugueteria" value="Jugueteria">
+            <label> Jugueteria</label><br><br>
+            <input type="checkbox" name='interes' id="vidasana" value="Vida Sana">
+            <label> Vida sana</label><br><br>
+            <h4>Foto de usuario</h4>
+            <input type="file" name="avatar" accept=".jpg" multiple><br><br>
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" name='Contraseña' id="Contraseña" required><br><br>
+            <label for="Ccontraseña">Confirmar contraseña</label>
+            <input type="password" name='password' id="password" required><br><br>
+            <button type="submit" value="ENVIAR">Enviar</button><br><br>
+            <button type="reset">Cancelar</button>
+
+
+            
+
+        </form> 
+    
+    </main>
+    <footer>
+        <section >
+            <div class="pie">
+                <section>
+                    <div class="ifooter"><i  class="fas fa-credit-card"></i></div>
+                        <h3 class ="titular">Pagá con tarjeta o en efectivo</h3>
+                            <p class="corpo">
+                                Con Mercado Liebre Cash, tenés cuotas sin<br>  
+                                interés con tarjeta o efectivo en puntos de <br>  
+                                pago. ¡Y siempre es seguro!
+                            </p>
+                
+    
+                </section>
+                <section>
+                    <div class="ifooter"><i class="fas fa-gift"></i></div>
+                        <h3 class ="titular">Envío gratis desde $ 2.500</h3>
+                            <p class="corpo">
+                                Solo por estar registrad@ en Mercado Liebre <br>  
+                                tenés envíos gratis en miles de productos. Es <br>  
+                                un beneficio de Mercado Puntos.
+                            </p>
+                </section>
+    
+                <section>
+                    <div class="ifooter"><i class="fas fa-user-shield"></i></div>
+                        <h3 class = "titular">Seguridad, de principio a fin</h3>
+                            <p class="corpo">
+                                ¿No te gusta? ¡Devolvelo! En Mercado Liebre <br>  
+                                no hay nada que no puedas hacer porque <br>  
+                                estás siempre protegid@. <br>
+                            </p>
+                </section>
+            </div>  
+        </section>
+    </footer>
+</body>
+</html>

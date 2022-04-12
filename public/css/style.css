@@ -1,0 +1,264 @@
+header{
+    background-color: #EAC926;
+    margin: 0px;
+    width: 100%;
+}
+
+header nav ul{
+    display: none;
+}
+
+div.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#banner{
+ box-sizing: border-box;
+ width: 100%;
+ margin: auto;
+}
+
+
+div#logo{
+    display: flex;
+    width: 30%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#logo img{
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#barraBusqueda{
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+div#coutas{
+    display: block;
+    margin-top: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+div.burger-menu i{
+    background-color: #0e68c9;;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 20px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    width: 20px;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+main{
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+main article img{
+    display: flex;
+    box-sizing: border-box;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    align-items: center;
+    background-color: white;
+}
+
+main article {
+    margin-bottom: 20px ;
+    background-color: white;
+    width: 90%;
+    
+}
+
+.titular {
+    font-size: 24px;
+}
+
+.cajaDescripciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    border-top: solid 1px gray;
+    background-color: white;
+}
+
+.precio {
+    display: flex;
+    font-size: 160%;
+    flex-wrap: wrap;
+}
+
+.descuentos {
+    display: flex;
+    font-size: 160%;
+    color: rgb(0, 199, 0);
+    flex-wrap: wrap;
+    
+}
+
+.descripcion{
+    font-size: 20px;
+    display: none;
+    box-sizing: border-box;
+    color: gray;
+    
+
+}
+
+.caja{
+    box-shadow: 0px 0px 10px rgb(100,100,100)
+}
+
+
+footer{
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: solid 1px gray;
+    background-color: white;
+}
+
+footer section{
+    margin: 10px;
+}
+
+@media (min-width: 590px) {
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+
+    #logo img{
+        display: flex;
+        width: 100%;
+        alt: 100%;
+        margin-left: 0px;
+    }
+
+    div.burger-menu i{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hijo {
+        display: flex;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+
+
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .cajaDescripciones:hover{
+        box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    }
+
+    .caja:hover .descripcion{
+        display: block;
+    }
+
+    .precio{
+        display: flex;
+        box-sizing: border-box;
+        
+        align-items: flex-start;
+    }
+
+    .descuentos{
+        display: flex;
+        margin-left: 20px;
+        box-sizing: border-box;
+        margin: auto;
+        align-items: flex-start;
+        
+    }
+
+    .descripcion{
+        margin-left: 10px;
+    }
+
+    .ultima_visita{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        grid-gap: 20px;  
+    }
+
+    footer section div.pie{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        box-sizing: border-box;
+        margin: 10px;
+        
+    }
+
+    footer section div.pie section h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ifooter{
+        display:flex;
+        justify-content: center;
+        color: #0022AA;
+        font-size: 100px;
+       
+    }
+
+    .corpo{
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        box-sizing: border-box;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+}
